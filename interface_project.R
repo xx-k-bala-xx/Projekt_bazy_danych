@@ -13,11 +13,11 @@ library(DT)
 
 
 con <- dbConnect(RPostgres::Postgres(),
-                 dbname = 'pracownia', # nazwa naszej projektowej bazy
+                 dbname = '#########', # nazwa naszej projektowej bazy
                  host = 'localhost',
                  port = '5432', # port ten sam co w psql - zwykle 5432
-                 user = 'greyraven', # nasza nazwa uzytkownika psql
-                 password = 'greyraven#') # i nasze haslo tego uzytkownika
+                 user = '#####', # nasza nazwa uzytkownika psql
+                 password = '########') # i nasze haslo tego uzytkownika
 
 # obiekty do rendertable do outputu w sekcji serwer;
 # podstawowe tabele 
